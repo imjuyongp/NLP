@@ -1,4 +1,4 @@
-# ◽ NLP
+# ◽ NLP(자연어처리)
 - 가상환경 활성화 명령어
     - source ~/Desktop/4-1/NLP_PJT/NLP_Lec_env/bin/activate
 - 가상환경 비활성화 명령어
