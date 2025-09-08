@@ -42,3 +42,14 @@
     - pip install konlpy
 - transFormers 설치
     - pip install transformers
+## 서브워드 토큰화(Hugging Face Transformers)
+
+- transformers 설치
+    - pip -q install transformers
+
+## 영어 품사 태깅(SpaCy)
+
+- spacy 설치
+    - pip -q install spacy
+- en_core_web_sm 설치
+    - python -m spacy download en_core_web_sm
