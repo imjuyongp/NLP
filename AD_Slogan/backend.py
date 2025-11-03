@@ -59,4 +59,4 @@ def create_ad_slogan(product:Product):
   ad_slogan = slogan_generator.generate(product_name=product.product_name,
                                         details=product.details,
                                         tone_and_manner=product.tone_and_manner)
-  return {"ad_Slogan": ad_slogan}
+  return {"ad_slogan": ad_slogan}
