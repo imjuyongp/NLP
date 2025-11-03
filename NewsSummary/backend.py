@@ -39,6 +39,6 @@ class InputText(BaseModel):
   text:str
 
 @app.post("/summarize")
-def summarize_endpoint(input_text: InputText):
+def sumarize(input_text: InputText):
   summary = summarize(input_text.text)
   return {"summary":summary}
