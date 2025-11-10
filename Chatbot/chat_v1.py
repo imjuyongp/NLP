@@ -2,7 +2,7 @@ import streamlit as st
 import requests as req
 
 # 챗봇 서비스 서버 url
-chat_url = "http://localhost:8080/chat"
+chat_url = "http://localhost:8000/chat"
 
 st.title("💬 고객센터 챗봇")
 st.caption("🚀 실습")
